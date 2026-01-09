@@ -199,7 +199,9 @@ nav .menu li a {
   color: #001931;
   text-align: start;
 }
-.details p {
+.details p , 
+.ending-button p,
+.ending-info p {
   font-size: 16px;
   color: #627382;
   line-height: 20px;
@@ -213,4 +215,30 @@ nav .menu li a {
   margin-top: 16px;
   color: #001931;
   font-weight: 500;
+}
+#ending {
+  height: 506px;
+  display: flex;
+  justify-content: center;
+}
+#ending .ending-container {
+  height: 384px;
+  width: 85%;
+  max-width: 1360px;
+  background-color: #f7f6f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 80px 40px;
+}
+.ending-container .ending-info,
+.ending-container .ending-button {
+  text-align: center;
+}
+.ending-info h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
 }
