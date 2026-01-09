@@ -131,14 +131,19 @@ nav .menu li a {
 }
 .about h2 {
   font-size: 48px;
-  color: #001931; 
+  color: #001931;
+  margin-top: 70px;
+  margin-bottom: 16px;
+  text-align: center;
 }
 .about p {
   font-size: 16px;
   color: #627382;
   line-height: 20px;
+  margin-bottom: 44px;
+  text-align: center;
 }
-.card-container {
+.about .card-container {
   display: flex;
   margin: 0 auto;
   gap: 24px;
@@ -153,7 +158,59 @@ nav .menu li a {
   gap: 16px;
   padding: 24px;
   border-radius: 8px;
-  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.07);
   border-radius: 8px;
   background: rgba(255, 255, 255, 1);
+}
+.card h3 {
+  text-align: center;
+}
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 840px;
+}
+#content .content-container {
+  display: flex;
+  margin: 0 auto;
+  width: 85%;
+  max-width: 1360px;
+  height: 600px;
+  gap: 60px;
+}
+.content-container .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 16px;
+}
+.details h4 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #30b868;
+  text-align: start;
+}
+.details h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  text-align: start;
+}
+.details p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  text-align: start;
+}
+.details ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  color: #001931;
+  font-weight: 500;
 }
