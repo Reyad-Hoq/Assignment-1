@@ -199,9 +199,7 @@ nav .menu li a {
   color: #001931;
   text-align: start;
 }
-.details p , 
-.ending-button p,
-.ending-info p {
+.details p {
   font-size: 16px;
   color: #627382;
   line-height: 20px;
@@ -241,4 +239,17 @@ nav .menu li a {
   font-weight: bold;
   color: #001931;
   margin-bottom: 16px;
+}
+.ending-info p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 24px;
+  text-align: center;
+}
+.ending-button p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 16px;
 }
