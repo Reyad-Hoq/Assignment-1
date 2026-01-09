@@ -40,6 +40,7 @@ nav .menu li a {
   font-weight: 600;
   padding: 12px 16px;
   border-radius: 4px;
+  cursor: pointer;
 }
 #banner {
   background: url(.//assets/hero-bg.png);
@@ -58,6 +59,9 @@ nav .menu li a {
   justify-content: center;
   align-items: center;
   gap: 32px;
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
 }
 .banner-content .btn-white-green {
   color: #30b868;
@@ -67,6 +71,7 @@ nav .menu li a {
   font-weight: 500;
   border-style: none;
   border-color: none;
+  cursor: pointer;
 }
 #banner .banner-content h2 {
   font-size: 72px;
@@ -83,7 +88,7 @@ nav .menu li a {
 #banner .banner-content p {
   font-size: 18px;
   color: #f1efef;
-  line-height: 30px;
+  line-height: 24px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -95,4 +100,53 @@ nav .menu li a {
   font-weight: 600;
   padding: 12px 16px;
   border-radius: 4px;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  gap: 16px;
+}
+.img-bg {
+  background-color: #f95555;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .img-bg img {
+  height: 32px;
+  width: 32px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  height: 448px;
+}
+.about h2 {
+  font-size: 48px;
+  color: #001931; 
+}
+.about p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+}
+.card-container {
+  display: flex;
+  margin: 0 auto;
+  gap: 24px;
+}
+.card-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
