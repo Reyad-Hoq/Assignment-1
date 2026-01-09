@@ -18,7 +18,7 @@ header {
   margin: 0 auto;
 }
 .logo img {
-  padding: 16px 0;
+  margin: 16px 0;
 }
 nav .menu {
   list-style: none;
@@ -39,4 +39,60 @@ nav .menu li a {
   font-size: 16px;
   font-weight: 600;
   padding: 12px 16px;
+  border-radius: 4px;
+}
+#banner {
+  background: url(.//assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: content;
+  background-size: cover;
+  height: 674px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#banner .banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.banner-content .btn-white-green {
+  color: #30b868;
+  background-color: #ffffff;
+  border-radius: 1000px;
+  padding: 12px 16px;
+  font-weight: 500;
+  border-style: none;
+  border-color: none;
+}
+#banner .banner-content h2 {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  line-height: 84px;
+}
+.banner-content h2 .white {
+  color: #ffffff;
+}
+.banner-content h2 .green {
+  color: #30b868;
+}
+#banner .banner-content p {
+  font-size: 18px;
+  color: #f1efef;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.btn-white {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border-radius: 4px;
 }
