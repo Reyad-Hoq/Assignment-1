@@ -47,11 +47,10 @@ nav .menu li a {
   background-repeat: no-repeat;
   background-position: content;
   background-size: cover;
-  height: 674px;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  padding: 116px 120px 130px;
 }
 #banner .banner-content {
   display: flex;
@@ -127,7 +126,6 @@ nav .menu li a {
   width: 85%;
   max-width: 1360px;
   margin: 0 auto;
-  height: 448px;
 }
 .about h2 {
   font-size: 48px;
@@ -169,14 +167,13 @@ nav .menu li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 840px;
+  padding: 120px;
 }
 #content .content-container {
   display: flex;
   margin: 0 auto;
   width: 85%;
   max-width: 1360px;
-  height: 600px;
   gap: 60px;
 }
 .content-container .details {
@@ -215,7 +212,7 @@ nav .menu li a {
   font-weight: 500;
 }
 #ending {
-  height: 506px;
+  height: 507px;
   display: flex;
   justify-content: center;
 }
@@ -252,4 +249,20 @@ nav .menu li a {
   line-height: 20px;
   text-align: center;
   margin-top: 16px;
+}
+footer {
+  background-color: #001931;
+  padding: 120px 120px 120px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-container {
+  width: 85%;
+  max-width: 1360px;
+  display: flex;
+  justify-content: space-between;
+
 }
