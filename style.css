@@ -6,9 +6,6 @@
 html {
   font-family: "Inter", sans-serif;
 }
-header {
-  background-color: #ffffff;
-}
 .container {
   display: flex;
   justify-content: space-between;
@@ -31,9 +28,14 @@ nav .menu li a {
   color: #000000;
   font-size: 16px;
   font-weight: 500;
+  transition: text-decoration 0.25s ease;
+}
+nav .menu li a:hover {
+  text-decoration: underline;
+  color: #001931;
 }
 .btn {
-  background-color: #30b868;
+  background-color: rgb(48, 184, 104);
   color: #ffffff;
   border: none;
   font-size: 16px;
@@ -41,6 +43,16 @@ nav .menu li a {
   padding: 12px 16px;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+.btn:hover,
+.btn-white:hover,
+.banner-content .btn-white-green:hover { 
+  border: 2px solid #30b868;
+  color: #30b868;
+  background: transparent;
+  font-weight: 700;
+  padding: 11px 15px;
 }
 #banner {
   background: url(.//assets/hero-bg.png);
